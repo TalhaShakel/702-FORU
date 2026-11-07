@@ -36,32 +36,37 @@ class HowItWorksScreen extends StatelessWidget {
         body: TabBarView(
           children: [
             _HowItWorksTab(
-              intro: '702FORU is your guide to everything worth doing in Las Vegas — curated by locals.',
+              intro: 'Your guide to discovering the best of Las Vegas. Explore local favorites, find great deals, and discover things to do—all in one place.',
               steps: const [
                 _Step(
                   icon: Icons.category_outlined,
-                  title: 'Browse 12 categories',
-                  body: 'Tap a sphere on the home grid to jump into Arts & Culture, Food & Drink, Free Things To Do and more.',
+                  title: 'Explore Categories',
+                  body: 'Browse categories to discover local favorites, from Arts & Culture and Food & Drink to Free Things to Do, Entertainment, Services, and more.',
                 ),
                 _Step(
                   icon: Icons.search_rounded,
-                  title: 'Search anything',
-                  body: 'Looking for a specific service? Search by name, service or neighbourhood.',
+                  title: 'Search for Anything',
+                  body: 'Looking for something specific? Search by business name, service, or neighborhood to find what you need.',
                 ),
                 _Step(
                   icon: Icons.storefront_outlined,
-                  title: 'Open a business page',
-                  body: 'Every business shares the same layout: photos, map, services, coupons and reviews.',
+                  title: 'Explore Business Pages',
+                  body: 'Discover local businesses, view photos and locations, explore services and special offers, and read customer reviews.',
                 ),
                 _Step(
                   icon: Icons.confirmation_number_outlined,
-                  title: 'Redeem your coupons',
-                  body: 'Free accounts include ${ConsumerCouponPricing.freeCoupons} coupons. Show the code in store, and upgrade any time for more.',
+                  title: 'Enjoy Your Coupons',
+                  body: 'Your free account includes 10 coupons. Simply show the coupon or offer code at the participating business to redeem your discount. Want access to more deals? Upgrade anytime.',
                 ),
                 _Step(
                   icon: Icons.rate_review_outlined,
-                  title: 'Leave a review',
-                  body: 'Registered visitors can rate and review any business they have used.',
+                  title: 'Share Your Experience',
+                  body: 'Create an account to rate and review businesses you’ve visited and help others discover great local favorites.',
+                ),
+                _Step(
+                  icon: null,
+                  title: 'Discover More. Save More. Support Local.',
+                  body: '702ForU — Your Vegas, Ready.',
                 ),
               ],
               ctaLabel: 'Create a free account',
